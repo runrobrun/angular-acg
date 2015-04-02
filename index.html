@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en" ng-app="myApp" ng-controller="BusinessCardController">
+<head>
+    <title>{{ user.name }} | Business Card</title>
+    <meta charset="utf-8">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/angular/angular.min.js"></script>
+<script>
+    'use strict';
+
+    angular.module('myApp', [])
+            .controller('BusinessCardController', function($scope){
+                $scope.user = {
+                    name: 'Tanay Pant'
+                }
+            });
+</script>
+</body>
+</html>
