@@ -1,0 +1,23 @@
+{
+  "name": "ACG",
+  "version": "0.0.0",
+  "authors": [
+    "Rob hammann <runrobrun@gmail.com>"
+  ],
+  "keywords": [
+    "AngularJS"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "font-awesome": "~4.3.0",
+    "angular": "~1.3.15"
+  }
+}
